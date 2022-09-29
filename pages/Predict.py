@@ -6,7 +6,7 @@ from xgboost import XGBClassifier
 import streamlit as st
 import os
 
-st.set_page_config("Predict", layout="wide")
+st.set_page_config(layout="wide", page_title="Predict Attrition")
 
 
 @st.cache

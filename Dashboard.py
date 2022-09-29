@@ -7,7 +7,7 @@ import plotly.io as pio
 import os
 
 pio.templates.default = "seaborn"
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="HR Analytics Dashboard")
 
 
 @st.cache
